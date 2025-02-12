@@ -107,7 +107,7 @@
         </section>
         <section id="book-a-table" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form" form>
+          <form class="reservation__form">
             <fieldset class="form__fieldset">
               <label for="name-input" class="form__label">
                 Name *
@@ -133,7 +133,12 @@
               </label>
               <label for="date-input" class="form__label">
                 Date and time *
-                <input required type="datetime-local" class="form__input" />
+                <input
+                  id="date-input"
+                  required
+                  type="datetime-local"
+                  class="form__input"
+                />
               </label>
               <label for="email-input" class="form__label">
                 Your email *
