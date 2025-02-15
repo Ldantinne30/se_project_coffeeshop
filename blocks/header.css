@@ -7,6 +7,7 @@
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #000;
 }
 
 .header__title {
@@ -51,4 +52,5 @@
 
 .header__paragraph {
   margin: 0;
+  color: #6f6f6f;
 }
