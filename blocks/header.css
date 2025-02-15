@@ -24,6 +24,9 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
   color: #3f96f3;
 }
 
@@ -52,5 +55,9 @@
 
 .header__paragraph {
   margin: 0;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   color: #6f6f6f;
 }
